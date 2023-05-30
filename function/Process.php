@@ -63,14 +63,14 @@ if ($_GET['aksi'] == "masuk") {
         } else {
             // JIka login gagal tampilkan sebuah pesan gagal login melalui session
             // Dan aktifkan session pada halaman login
-            $_SESSION['user_tidak_terdaftar'] = "Maaf, User tidak terdaftar pada database !!";
+            $_SESSION['user_tidak_terdaftar'] = "Maaf, User Tidak Terdaftar pada Database !!";
 
             header("location: ../masuk");
         }
     } else {
         // JIka login gagal tampilkan sebuah pesan gagal login melalui session
         // Dan aktifkan session pada halaman login
-        $_SESSION['gagal_login'] = "Nama Pengguna atau Kata Sandi salah !!";
+        $_SESSION['gagal_login'] = "Nama Pengguna atau Kata Sandi Salah !!";
 
         header("location: ../masuk");
     }

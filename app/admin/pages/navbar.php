@@ -16,7 +16,7 @@
     <nav class="navbar navbar-static-top">
         <!-- Sidebar toggle button-->
         <a href="../../assets/#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">Toggle Navigation</span>
         </a>
 
         <div class="navbar-custom-menu">
@@ -103,7 +103,7 @@
                                 ?>
                             </ul>
                         </li>
-                        <li class="footer"><a href="pesan">Lihat semua pesan</a></li>
+                        <li class="footer"><a href="pesan">Lihat Semua Pesan</a></li>
                     </ul>
                 </li>
                 <!-- Notifications: style can be found in dropdown.less -->

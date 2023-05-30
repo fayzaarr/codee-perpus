@@ -181,11 +181,11 @@
                         <input type="text" class="form-control" value="<?php echo $Kode ?>" name="kodePenerbit" readonly>
                     </div>
                     <div class="form-group">
-                        <label>Nama Penerbit <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Nama Penerbit <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" class="form-control" placeholder="Masukan Nama Penerbit" name="namaPenerbit" required>
                     </div>
                     <div class="form-group">
-                        <label>Status <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Status <small style="color: red;">* Wajib Diisi</small></label>
                         <select class="form-control select" name="sTatus">
                             <option selected disabled>-- Harap Pilih Status Penerbit --</option>
                             <option value="Terverifikasi">Terverfikasi</option>

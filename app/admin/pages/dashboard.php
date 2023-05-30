@@ -49,7 +49,7 @@
                     <div class="icon">
                         <i class="fa fa-users"></i>
                     </div>
-                    <a href="anggota" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="anggota" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -69,7 +69,7 @@
                     <div class="icon">
                         <i class="fa fa-book"></i>
                     </div>
-                    <a href="data-buku" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="data-buku" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -89,7 +89,7 @@
                     <div class="icon">
                         <i class="fa fa-sign-out"></i>
                     </div>
-                    <a href="data-peminjaman" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="data-peminjaman" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -109,7 +109,7 @@
                     <div class="icon">
                         <i class="fa fa-sign-in"></i>
                     </div>
-                    <a href="data-pengembalian" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="data-pengembalian" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->

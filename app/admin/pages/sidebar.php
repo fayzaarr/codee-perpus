@@ -61,7 +61,7 @@
                 </ul>
             </li>
             <li><a href="laporan"><i class="fa fa-book"></i> <span>Laporan Perpustakaan</span></a></li>
-            <li class="header">LAIN LAIN</li>
+            <li class="header">Lain-Lain</li>
             <li><a href="identitas-app"><i class="fa fa-info"></i> <span>Identitas Applikasi</span></a></li>
             <li><a href="pesan"><i class="fa fa-envelope"></i> <span>Pesan</span>
                     <span class="pull-right-container" id="jumlahPesan">
@@ -86,7 +86,7 @@
                         ?>
                     </span>
                 </a></li>
-            <li class="header">LANJUTAN</li>
+            <li class="header">Lanjutan</li>
             <li><a href="#Logout" data-toggle="modal" data-target="#modalLogoutConfirm"><i class="fa fa-sign-out"></i> <span>Keluar</span></a></li>
         </ul>
     </section>

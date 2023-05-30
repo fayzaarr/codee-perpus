@@ -4,7 +4,7 @@
 //------------------------------::::::::::::::::::::------------------------------\\
 session_start();
 if ($_SESSION['level'] != "Admin") {
-    $_SESSION['masuk_dulu'] = "Silahkan masuk terlebih dahulu !!";
+    $_SESSION['masuk_dulu'] = "Silahkan Masuk Terlebih Dahulu !!";
     header("location: ../../masuk");
 }
 ?>

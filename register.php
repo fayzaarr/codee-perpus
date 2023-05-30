@@ -72,7 +72,7 @@ session_start();
                 <p style="font-size: 11px;">- ATAU -</p>
                 <div class="row">
                     <div class="col-xs-12">
-                        <button type="button" onclick="Masuk()" class="btn btn-block btn-success btn-flat"><i class="fa fa-sign-in"></i> Sudah mempunyai akun ? Masuk</button>
+                        <button type="button" onclick="Masuk()" class="btn btn-block btn-success btn-flat"><i class="fa fa-sign-in"></i> Sudah memiliki akun ? Masuk</button>
                     </div>
                 </div>
             </div>

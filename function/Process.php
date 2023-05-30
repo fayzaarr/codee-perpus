@@ -70,7 +70,7 @@ if ($_GET['aksi'] == "masuk") {
     } else {
         // JIka login gagal tampilkan sebuah pesan gagal login melalui session
         // Dan aktifkan session pada halaman login
-        $_SESSION['gagal_login'] = "Nama Pengguna atau Kata Sandi salah !!";
+        $_SESSION['gagal_login'] = "Nama Pengguna atau Kata Sandi Salah !!";
 
         header("location: ../masuk");
     }

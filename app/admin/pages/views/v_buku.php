@@ -184,13 +184,13 @@
             <form action="pages/function/Buku.php?act=tambah" enctype="multipart/form-data" method="POST">
                 <div class="modal-body">
                     <div class="form-group">
-                        <label>Judul Buku <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Judul Buku <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" class="form-control" placeholder="Masukan Judul Buku" name="judulBuku">
                     </div>
                     <div class="form-group">
-                        <label>Kategori Buku <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Kategori Buku <small style="color: red;">* Wajib Diisi</small></label>
                         <select class="form-control" name="kategoriBuku">
-                            <option selected>-- Harap pilih kategori buku --</option>
+                            <option selected>-- Harap Pilih Kategori Buku --</option>
                             <?php
                             include "../../config/koneksi.php";
 
@@ -204,7 +204,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>Penerbit Buku <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Penerbit Buku <small style="color: red;">* Wajib Diisi</small></label>
                         <select class="form-control select2" name="penerbitBuku">
                             <option selected disabled>-- Harap Pilih Penerbit Buku --</option>
                             <?php
@@ -220,23 +220,23 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>Pengarang <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Pengarang <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" class="form-control" placeholder="Masukan Nama Pengarang" name="pengarang" required>
                     </div>
                     <div class="form-group">
-                        <label>Tahun Terbit <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Tahun Terbit <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="number" min="2000" max="2100" class="form-control" placeholder="Masukan Tahun Terbit ( Contoh : 2003 )" name="tahunTerbit" required>
                     </div>
                     <div class="form-group">
-                        <label>ISBN <small style="color: red;">* Wajib diisi</small></label>
+                        <label>ISBN <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="number" class="form-control" placeholder="Masukan ISBN" name="iSbn" required>
                     </div>
                     <div class="form-group">
-                        <label>Jumlah Buku Baik <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Jumlah Buku Baik <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="number" class="form-control" placeholder="Masukan Jumlah Buku Baik" name="jumlahBukuBaik" required>
                     </div>
                     <div class="form-group">
-                        <label>Jumlah Buku Rusak <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Jumlah Buku Rusak <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="number" class="form-control" placeholder="Masukan Jumlah Buku Rusak" name="jumlahBukuRusak" required>
                     </div>
                 </div>

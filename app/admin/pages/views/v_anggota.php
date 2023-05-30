@@ -106,7 +106,7 @@
                                                             <input type="text" class="form-control" value="<?= $row['password']; ?>" name="pAssword">
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Kelas <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Kelas <small style="color: red;">* Wajib Diisi</small></label>
                                                             <select class="form-control" name="kElas">
                                                                 <?php
                                                                 if ($row['kelas'] == null) {
@@ -214,23 +214,23 @@
                         <input type="text" class="form-control" value="<?php echo $Anggota ?>" name="kodeAnggota" readonly>
                     </div>
                     <div class="form-group">
-                        <label>Nomor Induk Siswa <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Nomor Induk Siswa <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="number" class="form-control" placeholder="Masukan NIS" name="nis" required>
                     </div>
                     <div class="form-group">
-                        <label>Nama Lengkap <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Nama Lengkap <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" class="form-control" placeholder="Masukan Nama Lengkap" name="namaLengkap" required>
                     </div>
                     <div class="form-group">
-                        <label>Nama Pengguna <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Nama Pengguna <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" class="form-control" placeholder="Masukan Nama Pengguna" name="username" required>
                     </div>
                     <div class="form-group">
-                        <label>Kata Sandi <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Kata Sandi <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" class="form-control" placeholder="Masukan Kata Sandi" name="password" required>
                     </div>
                     <div class="form-group">
-                        <label>Kelas <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Kelas <small style="color: red;">* Wajib Diisi</small></label>
                         <select class="form-control" name="kelas">
                             <option disabled selected>-- Harap Pilih Kelas --</option>
                             <!-- X -->
@@ -265,7 +265,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>Alamat <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Alamat <small style="color: red;">* Wajib Diisi</small></label>
                         <textarea class="form-control" style="resize: none; height: 70px;" name="alamat" required></textarea>
                     </div>
                 </div>

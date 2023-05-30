@@ -8,5 +8,5 @@ unset($_SESSION['fullname']);
 unset($_SESSION['username']);
 unset($_SESSION['status']);
 
-$_SESSION['berhasil_keluar'] = "Anda Berhasil Keluar !!";
+$_SESSION['berhasil_keluar'] = "Anda Telah Berhasil Keluar !!";
 header("location: ../../masuk");

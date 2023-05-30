@@ -91,11 +91,11 @@
                                                     <div class="modal-body">
                                                         <input type="hidden" name="id_buku" value="<?= $row['id_buku']; ?>">
                                                         <div class="form-group">
-                                                            <label>Judul Buku <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Judul Buku <small style="color: red;">* Wajib Diisi</small></label>
                                                             <input type="text" class="form-control" value="<?= $row['judul_buku']; ?>" name="judulBuku">
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Kategori Buku <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Kategori Buku <small style="color: red;">* Wajib Diisi</small></label>
                                                             <select class="form-control" name="kategoriBuku">
                                                                 <option selected value="<?= $row['kategori_buku']; ?>"><?= $row['kategori_buku']; ?> ( Dipilih Sebelumnya )</option>
                                                                 <?php
@@ -111,7 +111,7 @@
                                                             </select>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Penerbit Buku <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Penerbit Buku <small style="color: red;">* Wajib Diisi</small></label>
                                                             <select class="form-control select2" name="penerbitBuku">
                                                                 <option selected value="<?= $row['penerbit_buku']; ?>"><?= $row['penerbit_buku']; ?> ( Dipilih Sebelumnya )</option>
                                                                 <?php
@@ -127,11 +127,11 @@
                                                             </select>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Pengarang <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Pengarang <small style="color: red;">* Wajib Diisi</small></label>
                                                             <input type="text" class="form-control" value="<?= $row['pengarang']; ?>" name="pengarang" required>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Tahun Terbit <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Tahun Terbit <small style="color: red;">* Wajib Diisi</small></label>
                                                             <input type="number" min="2000" max="2100" class="form-control" value="<?= $row['tahun_terbit']; ?>" name="tahunTerbit" required>
                                                         </div>
                                                         <div class="form-group">
@@ -139,11 +139,11 @@
                                                             <input type="number" class="form-control" value="<?= $row['isbn']; ?>" name="iSbn" required>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Jumlah Buku Baik <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Jumlah Buku Baik <small style="color: red;">* Wajib Diisi</small></label>
                                                             <input type="number" class="form-control" value="<?= $row['j_buku_baik']; ?>" name="jumlahBukuBaik" required>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Jumlah Buku Rusak <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Jumlah Buku Rusak <small style="color: red;">* Wajib Diisi</small></label>
                                                             <input type="number" class="form-control" value="<?= $row['j_buku_rusak']; ?>" name="jumlahBukuRusak" required>
                                                         </div>
                                                     </div>

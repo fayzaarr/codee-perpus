@@ -80,7 +80,7 @@
                                                             <input type="text" class="form-control" value="<?= $row['kode_kategori']; ?>" name="kodeKategori" readonly>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label>Nama Kategori <small style="color: red;">* Wajib diisi</small></label>
+                                                            <label>Nama Kategori <small style="color: red;">* Wajib Diisi</small></label>
                                                             <input type="text" class="form-control" value="<?= $row['nama_kategori']; ?>" name="namaKategori">
                                                         </div>
                                                     </div>

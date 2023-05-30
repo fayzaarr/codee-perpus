@@ -67,7 +67,7 @@ session_start();
                 <p style="font-size: 11px;">- ATAU -</p>
                 <div class="row">
                     <div class="col-xs-12">
-                        <button type="button" onclick="Register()" class="btn btn-block btn-warning btn-flat"><i class="fa fa-user-plus"></i> Daftar sebagai member</button>
+                        <button type="button" onclick="Register()" class="btn btn-block btn-warning btn-flat"><i class="fa fa-user-plus"></i> Daftar Sebagai Member</button>
                     </div>
                 </div>
             </div>

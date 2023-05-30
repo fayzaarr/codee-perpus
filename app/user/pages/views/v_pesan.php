@@ -175,11 +175,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>Judul Pesan <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Judul Pesan <small style="color: red;">* Wajib Diisi</small></label>
                         <input type="text" name="judulPesan" class="form-control" placeholder="Masukan Judul Pesan" required>
                     </div>
                     <div class="form-group">
-                        <label>Isi Pesan <small style="color: red;">* Wajib diisi</small></label>
+                        <label>Isi Pesan <small style="color: red;">* Wajib Diisi</small></label>
                         <textarea name="isiPesan" class="form-control" style="height: 100px; resize: none;" required></textarea>
                     </div>
                 </div>

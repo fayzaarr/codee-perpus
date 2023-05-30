@@ -66,7 +66,7 @@
                                         <select class="form-control" name="kondisiBukuSaatDikembalikan" required>
                                             <option selected disabled>-- Silahkan pilih kondisi buku saat dikembalikan --</option>
                                             <!-- -->
-                                            <option value="Baik">Baik ( Tidak terkena denda )</option>
+                                            <option value="Baik">Baik ( Tidak ada denda )</option>
                                             <option value="Rusak">Rusak ( Denda 20.000 )</option>
                                             <option value="Hilang">Hilang ( Denda 50.000 )</option>
                                         </select>
